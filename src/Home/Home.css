@@ -5,11 +5,11 @@
 }
 
 .gridContainer{
-  color: aliceblue;
-  text-shadow:  0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08,
-    0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08,
-    0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08,
-    0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08;
+  color: #fff;
+  text-shadow:  0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca,
+    0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca,
+    0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca,
+    0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca;
 }
 
 .homeName{
@@ -24,7 +24,7 @@
 .cv-button{
   background: transparent;
   color: rgb(162, 163, 164);
-  text-shadow: 2px 2px 8px white;
+  text-shadow: 2px 2px 8px #fff;
   padding-top: 7%;
   text-decoration: none;
   text-transform: uppercase;
@@ -33,15 +33,12 @@
 }
 
 .cv-button:hover{
-  color: white;
+  color: #fff;
   transition-delay: 0.5s;
   text-shadow: 
-  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
-    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+  .1vw 0vw .25vw #fff, .2vw 0vw .25vw #fff, .4vw 0vw .25vw #fff, 
+    .1vw 0vw   1vw #0ff, .2vw 0vw   1vw #0ff, .4vw 0vw   5vw #0ff, 
+    .1vw 0vw  10vw #0ff, .2vw 0vw  30vw #0ff, .4vw 0vw  10vw #0ff;
 }
 
 .navTitle{
@@ -57,14 +54,14 @@
  @keyframes flicker {
     10%, 30%, 60%, 75% {
       opacity: 1;
-      text-shadow: 0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08,
-                   0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08;
+      text-shadow: 0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca,
+                   0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca;
     }
   
     20%, 40%, 72% {
       opacity: 0;
-      text-shadow:  0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08,
-                    0 0 10px #008B08, 0 0 40px #008B08, 0 0 10px #008B08;
+      text-shadow:  0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca,
+                    0 0 10px #3d46ca, 0 0 40px #3d46ca, 0 0 10px #3d46ca;
       
     }
   }

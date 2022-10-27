@@ -9,8 +9,6 @@
 
 .menuHeader {
     color: white;
-    font-size: 3.4em;    
-    font-weight: 400;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 
@@ -82,3 +80,38 @@ animation-delay: 2.2s;
 35% {opacity: 0.3;}
 36% {opacity: 1;}
 }
+
+.menuList {
+    border: 4px;
+    border-style: solid;
+    border-color:	#181818;
+    color: #fff;
+    margin-top: 10%;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.menuList:hover {
+    box-shadow: 0 0 35px #0ff;
+    transition: 0.5s;
+}
+
+.listLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.listItem {
+    padding: 5%;
+    background: transparent;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    pointer-events: auto;
+}
+
+.listItem:hover {
+    pointer-events: auto;
+    letter-spacing: 0.25em;
+} 
+

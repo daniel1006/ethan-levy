@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 
+import '../Components/NavBar/NavBar';
 import './Home.css';
 
 const theme = createTheme();
@@ -17,16 +18,6 @@ theme.typography.h2 = {
   },
   [theme.breakpoints.up('md')]: {
     fontSize: '2rem',
-  },
-};
-
-theme.typography.h1 = {
-  fontSize: '3.5rem',
-  '@media (min-width:600px)': {
-    fontSize: '3.5rem',
-  },
-  [theme.breakpoints.up('md')]: {
-    fontSize: '5.5rem',
   },
 };
 
@@ -48,17 +39,11 @@ function Home() {
         <source src={"https://dl.dropboxusercontent.com/s/nkajtezocg80u5a/RainVideo.mp4?dl=0"} type="video/mp4" />
         </video>   
 
-      <AppBar position="absolute" color="transparent" elevation={0}>
-        <Toolbar>
-            <ThemeProvider theme={theme}>
-              <Typography variant='h1' className="navTitle">Torential Rain FIlms</Typography>
-            </ThemeProvider>
-        </Toolbar>
-      </AppBar>
+
 
         <Grid className="gridContainer" container rowSpacing={1} sx={{  paddingTop: theme.spacing(55),
                                                                         [theme.breakpoints.down('sm')]: {
-                                                                        paddingTop: theme.spacing(45),
+                                                                        paddingTop: theme.spacing(35),
                                                                         },}}>
 
           <Grid xs={12} xsOffset={1} >
