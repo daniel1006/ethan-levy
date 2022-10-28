@@ -52,7 +52,7 @@ function Home() {
 
           <Grid xs={12} sm={7} xsOffset={1} >
             <ThemeProvider theme={theme}>
-              <Typography variant="h2" className="homeTitles" > Photographer | Film Maker </Typography>
+              <Typography variant="h2" className="homeTitles" > Photographer | Filmmaker </Typography>
             </ThemeProvider>
           </Grid>
 
