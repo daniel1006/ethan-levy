@@ -46,7 +46,7 @@ function Home() {
 
           <Grid xs={12} xsOffset={1} >
             <ThemeProvider theme={theme}>
-              <Typography variant="h1" className="homeName" > Ethan Bevy </Typography>
+              <Typography variant="h1" className="homeName" > Ethan Levy </Typography>
             </ThemeProvider>
           </Grid> 
 
