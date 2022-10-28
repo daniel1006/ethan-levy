@@ -3,8 +3,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Unstable_Grid2';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 
 import '../Components/NavBar/NavBar';
 import './Home.css';
@@ -54,7 +52,7 @@ function Home() {
 
           <Grid xs={12} sm={7} xsOffset={1} >
             <ThemeProvider theme={theme}>
-              <Typography variant="h2" className="homeTitles" > Director. DOP. Actor </Typography>
+              <Typography variant="h2" className="homeTitles" > Photographer | Film Maker </Typography>
             </ThemeProvider>
           </Grid>
 
