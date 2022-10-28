@@ -57,7 +57,7 @@ function Home() {
           </Grid>
 
           <Grid xs={12} sm={3} xsOffset={1}>
-            <a className="cv-button" download href="/Resume/vise confirmation.pdf">
+            <a className="cv-button" download href="">
             <Typography variant="h5" className="cv-button" > Download CV </Typography> 
             </a> 
           </Grid>
