@@ -20,13 +20,20 @@ import fourteen from '../Components/Images/fourteen.avif';
 import fiftheen from '../Components/Images/fiftheen.avif';
 import sixteen from '../Components/Images/sixteen.avif';
 import seventeen from '../Components/Images/seventeen.avif';
-
+import { Helmet } from 'react-helmet-async';
 
 import './Gallery.css'
 
 function Gallery() {
   return (
   <Box className='galleryBox'>
+
+<Helmet>
+  <title>Gallery Page</title>
+  <meta name='description' content='Personal photography portfolio' />
+  <link rel='canonical' href="/gallery" />
+</Helmet>
+
     <ImageList variant="masonry" 
                sx={{ paddingLeft:'13%', paddingRight:'13%', paddingTop:{xs:'75%', sm:'25%', md:'15%', lg:'10%'}, background:'black' }} 
                cols={2} gap={10}>

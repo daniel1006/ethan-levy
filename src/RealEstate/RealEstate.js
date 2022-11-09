@@ -2,6 +2,7 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Box from '@mui/material/Box';
+import { Helmet } from 'react-helmet-async';
 
 import one from '../Components/RealEstate/one.avif';
 import two from '../Components/RealEstate/two.avif';
@@ -21,6 +22,13 @@ function RealEstate() {
   return (
 
   <Box className='RealEstateBox'>
+
+<Helmet>
+  <title>Real Estate Page</title>
+  <meta name='description' content='Personal photography portfolio for Real Estate' />
+  <link rel='canonical' href="/realEstate" />
+</Helmet>
+
     <ImageList variant="masonry" 
                sx={{ paddingLeft:'20%', paddingRight:'20%', paddingTop:{xs:'75%', sm:'25%', md:'15%', lg:'10%'}, background:'black' }} 
                cols={1} gap={10}>
