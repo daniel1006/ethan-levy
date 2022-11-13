@@ -1,0 +1,32 @@
+.BottomBox {
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    background: black;
+    color: #fff;
+    border-top: 4px;
+    border-style: solid;
+    border-color:	#181818;
+}
+
+.BottomNavContainer {
+    text-align: center;
+}
+
+.BottomNavCard {
+    margin-top: 10%;
+}
+
+.Icons {
+    margin: 2%;
+}
+
+.Icons:hover {
+    color: #0ff;
+    transition: 0.5s;
+}
+
+.BottomNavTypo:active {
+    text-decoration: none;
+    color: #fff;
+}
