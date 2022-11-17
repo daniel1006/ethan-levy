@@ -21,26 +21,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cv-button{
-  background: transparent;
-  color: rgb(162, 163, 164);
-  text-shadow: 2px 2px 8px #fff;
-  padding-top: 7%;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.cv-button:hover{
-  color: #fff;
-  transition-delay: 0.5s;
-  text-shadow: 
-  .1vw 0vw .25vw #fff, .2vw 0vw .25vw #fff, .4vw 0vw .25vw #fff, 
-    .1vw 0vw   1vw #0ff, .2vw 0vw   1vw #0ff, .4vw 0vw   5vw #0ff, 
-    .1vw 0vw  10vw #0ff, .2vw 0vw  30vw #0ff, .4vw 0vw  10vw #0ff;
-}
-
 .navTitle{
     color: lightblue;
     overflow: hidden;

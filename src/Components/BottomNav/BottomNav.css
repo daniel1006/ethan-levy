@@ -1,6 +1,5 @@
 .BottomBox {
-    width: 100vw;
-    height: 30vh;
+    height: 35vh;
     overflow: hidden;
     background: black;
     color: #fff;
@@ -13,12 +12,9 @@
     text-align: center;
 }
 
-.BottomNavCard {
-    margin-top: 10%;
-}
-
 .Icons {
-    margin: 2%;
+    margin: 3%;
+    margin-bottom: 1%;
 }
 
 .Icons:hover {
@@ -26,7 +22,39 @@
     transition: 0.5s;
 }
 
-.BottomNavTypo:active {
+.sendIcon {
+    margin-right: 15px;
+}
+
+.sendIcon:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.BottomNavTypoLeft {
     text-decoration: none;
     color: #fff;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BottomNavTypo {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.BottomNavTypo:hover {
+    text-decoration: underline;
+    text-decoration-color: #0ff;
+    transition: 0.5s;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
 }

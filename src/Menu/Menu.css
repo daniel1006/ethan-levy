@@ -96,6 +96,15 @@ animation-delay: 2.2s;
     transition: 0.5s;
 }
 
+.menuSeperater{
+    border-bottom: 1px;
+    border-style: solid;
+    border-color:	#181818;
+    background-color: #181818;
+    width: 75%;
+    margin: 0px auto;
+}
+
 .listLink {
     text-decoration: none;
     color: #fff;

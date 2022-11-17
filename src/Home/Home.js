@@ -56,12 +56,6 @@ function Home() {
             </ThemeProvider>
           </Grid>
 
-          <Grid xs={12} sm={3} xsOffset={1}>
-            <a className="cv-button" download href="">
-            <Typography variant="h5" className="cv-button" > Download CV </Typography> 
-            </a> 
-          </Grid>
-
         </Grid>
     </Box>
     )

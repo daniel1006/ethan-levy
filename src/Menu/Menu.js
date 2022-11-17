@@ -35,6 +35,7 @@ function Menu() {
 
       <Container sx={{ width: {xs: '90%', sm:'40%', lg:'30%'} }} className='menuList'>
           <Typography variant='h4' className='listItem'><Link to='/gallery' className='listLink'> Photo Gallery </Link></Typography>
+          <div className='menuSeperater'></div>
           <Typography variant='h4' className='listItem'><Link to='/realEstate' className='listLink'> Real Estate </Link></Typography>
       </Container>
 
