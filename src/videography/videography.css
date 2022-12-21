@@ -1,0 +1,56 @@
+.videoBox {
+    text-align: center;
+    overflow: hidden;
+    background: black;
+    padding-bottom: 10%;
+}
+
+.images{
+    height: 40vh;
+}
+
+.images:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 1s ease;
+}
+
+@media screen and (max-width: 650px) {
+    .images{
+        height: 20vh;
+    }
+}
+
+.imageBox {
+    position: relative;
+}
+
+.imageBox:hover .bounce {
+    opacity: 1;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-40px); }
+  100% { transform: translateY(0); }
+}
+
+.playerIcon {
+    color: orange;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+
+.playerIcon:hover + .grayScale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.videoInfo {
+    color: rgb(251, 251, 27);
+}

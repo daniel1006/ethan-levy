@@ -1,6 +1,7 @@
 .RealEstateBox {
-    width: 100vw;
+    width: 100%;
     height: auto;
     overflow: hidden;
     background-color: black;
+    padding-bottom: 10%;
 }

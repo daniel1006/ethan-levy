@@ -4,3 +4,6 @@ export { default as Menu } from '../Menu/Menu';
 export { default as RealEstate } from '../RealEstate/RealEstate';
 export { default as NavBar } from '../Components/NavBar/NavBar';
 export { default as BottomNav } from '../Components/BottomNav/BottomNav';
+export { default as Videography } from '../videography/Videography';
+export { default as BabyDoll } from '../videoPage/BabyDoll';
+export { default as Progress } from '../videography/Progress';

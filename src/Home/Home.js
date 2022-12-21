@@ -24,7 +24,7 @@ function Home() {
     
     <Box className='Box'  sx={{ flexGrow: 1 }}>
 
-          <video autoPlay loop muted 
+        <video autoPlay loop muted 
                 style={{
                 position: "absolute",
                 width: "100vw",
@@ -34,7 +34,7 @@ function Home() {
                 objectFit: "cover",
                 zIndex: "-3" }}>
 
-        <source src={"https://dl.dropboxusercontent.com/s/nkajtezocg80u5a/RainVideo.mp4?dl=0"} type="video/mp4" />
+          <source src={"https://dl.dropboxusercontent.com/s/nkajtezocg80u5a/RainVideo.mp4?dl=0"} type="video/mp4" />
         </video>   
 
 

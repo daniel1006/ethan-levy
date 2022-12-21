@@ -1,0 +1,13 @@
+.videoPages {
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.iframe {
+    height: 85vh;
+    width: 60vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
