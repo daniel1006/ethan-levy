@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import HideOnScroll from './HideOnScroll';
+//import HideOnScroll from './HideOnScroll';
 
 import './NavBar.css'
 
@@ -22,15 +22,13 @@ theme.typography.h1 = {
 function NavBar() {
   return (
 <>
-    <HideOnScroll>        
-      <AppBar position="fixed" color="transparent" elevation={0}>
+      <AppBar position="absolute" color="transparent" elevation={0}>
         <Toolbar>
             <ThemeProvider theme={theme}>
                <Typography variant='h1' className="navTitle"><Link to='/' className='navLink'> Torrential Rain Films </Link></Typography>
             </ThemeProvider>
         </Toolbar>
       </AppBar>
-    </HideOnScroll>
 </>
   )
 }
